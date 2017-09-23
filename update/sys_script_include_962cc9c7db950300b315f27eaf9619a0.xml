@@ -12,6 +12,10 @@ NOWTest.prototype = {
     initialize: function() {
 		this.version = '1.1.0';
     },
+	
+	sayHello: function() {
+		return 'Hello';
+	},
 
     type: 'NOWTest'
 };]]></script>
@@ -20,7 +24,7 @@ NOWTest.prototype = {
         <sys_created_on>2017-09-23 18:47:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>962cc9c7db950300b315f27eaf9619a0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NOWTest</sys_name>
         <sys_package display_value="NOW Test" source="x_snc_now_test">09ebcd87db950300b315f27eaf96197f</sys_package>
         <sys_policy>read</sys_policy>
@@ -28,6 +32,6 @@ NOWTest.prototype = {
         <sys_scope display_value="NOW Test">09ebcd87db950300b315f27eaf96197f</sys_scope>
         <sys_update_name>sys_script_include_962cc9c7db950300b315f27eaf9619a0</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2017-09-23 18:49:20</sys_updated_on>
+        <sys_updated_on>2017-09-23 18:50:47</sys_updated_on>
     </sys_script_include>
 </record_update>
