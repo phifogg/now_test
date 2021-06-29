@@ -10,13 +10,16 @@
         <script><![CDATA[var NOWTest = Class.create();
 NOWTest.prototype = {
     initialize: function() {
-		this.version = '1.1.0';
+		this.version = '1.1.1';
     },
 	
 	sayHello: function() {
 		return 'Hello';
 	},
 
+
+	sayAlexa: function() {
+		return 'Alexa';
 
 	bla: function() {
 		return 'bla';
