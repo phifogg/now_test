@@ -17,6 +17,10 @@ NOWTest.prototype = {
 		return 'Hello';
 	},
 
+
+	bla: function() {
+		return 'bla';
+
 	sayGoodBy: function() {
 		return 'Good Bye';
 	},
